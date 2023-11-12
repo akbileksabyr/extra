@@ -1,0 +1,59 @@
+# 1.Гипотенуза
+# a = int(input("num1: "))
+# b = int(input("num2: "))
+# c = int((a**2 + b**2)**0.5)
+# print("answer: ", c)
+
+
+# 2.Конец уроков
+# lesson_number = int(input("lesson number: "))
+# start_time = 9 * 60
+# lesson_duration = 45
+# break_duration_1 = 5
+# break_duration_2 = 15
+# break_schedule = [break_duration_1, break_duration_2] * 5
+# end_time = start_time + (lesson_number - 1) * (lesson_duration + break_schedule[lesson_number % 10 - 1])
+# end_hours = end_time // 60
+# end_minutes = end_time % 60
+# print("answer: ", end_hours, end_minutes)
+
+# 3. Какое из чисел больше?
+# num1 = int(input("num1: "))
+# num2 = int(input("num2: "))
+# if num1 > num2:
+#     print("answer: ", 1)
+# elif num1 < num2:
+#     print("answer: ", 2)
+# else:
+#     print("answer: ", 0)
+
+# 4. Максимум из трех
+# num1 = int(input("num1: "))
+# num2 = int(input("num2: "))
+# num3 = int(input("num3: "))
+# max_num = max(num1, num2, num3)
+# print("answer: ",max_num)
+
+#5. Количество равных из трех
+# num1 = int(input("num1: "))
+# num2 = int(input("num2: "))
+# num3 = int(input("num3: "))
+# if num1 == num2 == num3:
+#     print("answer: ",3)
+# elif num1 == num2 or num1 == num3 or num2 == num3:
+#     print("answer: ",2)
+# else:
+#     print("answer: ",0)
+
+#6. Упорядочить три числа
+# a = int(input("num1: "))
+# b = int(input("num2: "))
+# c = int(input("num2: "))
+# if a > b:
+#     a, b = b, a
+# if b > c:
+#     b, c = c, b
+# if a > b:
+#     a, b = b, a
+# print("answer: ", a, b, c)
+
